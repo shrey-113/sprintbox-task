@@ -1,7 +1,7 @@
 const FormComponent = () => {
   return (
     <div>
-      <form className="flex flex-col gap-4">
+      <form className="flex flex-col gap-4 md:w-2/3">
         <div>
           <label
             className="block text-sm font-medium text-gray-700"

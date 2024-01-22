@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const JobComponent = () => {
   return (
     <div className="mx-6 flex flex-col my-6 md:mx-16 md:flex md:flex-row md:justify-between">
@@ -12,9 +14,11 @@ const JobComponent = () => {
       </div>
 
       <div className="flex justify-between mt-4 ">
-        <button className=" bg-[#2151FF] text-[#FFF] px-10 py-2 md:mx-4">
-          Apply
-        </button>
+        <Link to="/apply">
+          <button className=" bg-[#2151FF] text-[#FFF] px-10 py-2 md:mx-4">
+            Apply
+          </button>
+        </Link>
         <button className=" text-[#000] px-10 flex justify-center p-2 border border-black">
           Share
           <svg
